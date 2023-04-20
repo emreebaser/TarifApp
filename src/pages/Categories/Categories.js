@@ -3,7 +3,7 @@ import {Button, SafeAreaView, Text, FlatList, View, StyleSheet, TextInput} from 
 import Config from 'react-native-config';
 
 
-import useFetch from '../../hooks/useFetch';
+import useFetch from '../../hooks/useFetch/useFetch';
 import Loading from '../../components/Loading';
 import Error from '../../components/Error';
 import CategoriesCard from '../../components/Cards/CategoriesCard';
